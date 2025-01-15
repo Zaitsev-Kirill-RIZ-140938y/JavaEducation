@@ -12,8 +12,30 @@ public class Example7 {
         System.out.print("Введите ваш возраст: ");
         int age = scanner.nextInt();
 
-        System.out.println("Здравствуйте, " + name + ". Ваш возраст: " + age + " лет.");
+        // Определение правильного склонения для возраста
+        String ageWord = getAgeWord(age);
+
+        System.out.println("Здравствуйте, " + name + ". Ваш возраст: " + age + " " + ageWord + ".");
 
         scanner.close();
+    }
+
+    private static String getAgeWord(int age) {
+        int lastDigit = age % 10;
+        int lastTwoDigits = age % 100;
+
+        if (lastTwoDigits >= 11 && lastTwoDigits <= 14) {
+            return "лет";
+        }
+        switch (lastDigit) {
+            case 1:
+                return "год";
+            case 2:
+            case 3:
+            case 4:
+                return "года";
+            default:
+                return "лет";
+        }
     }
 }

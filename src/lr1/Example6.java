@@ -15,7 +15,7 @@ public class Example6 {
         System.out.println("Введите отчество: ");
         String patronymic = scanner.nextLine();
 
-        System.out.println("Hello <" + surname + "," + name + "," + patronymic + ">");
+        System.out.println("Hello <" + surname + ", " + name + ", " + patronymic + ">");
 
         scanner.close();
     }
