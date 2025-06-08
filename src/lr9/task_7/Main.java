@@ -1,4 +1,4 @@
-package lr9.task_11;
+package lr9.task_7;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

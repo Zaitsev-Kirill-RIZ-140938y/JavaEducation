@@ -1,4 +1,4 @@
-package lr9.task_10;
+package lr9.task_6;
 
 import java.util.HashMap;
 import java.util.Map;

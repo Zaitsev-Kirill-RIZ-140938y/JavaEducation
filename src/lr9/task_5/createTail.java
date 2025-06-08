@@ -1,4 +1,4 @@
-package lr9.task_9;
+package lr9.task_5;
 
 public class createTail {
     public static void main(String[] args) {
