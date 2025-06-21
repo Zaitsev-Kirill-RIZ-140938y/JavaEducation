@@ -1,4 +1,4 @@
-package lr12.Timus.Task_1036;
+package lr12.Timus.task_1036;
 
 import java.math.BigInteger;
 import java.util.Scanner;
